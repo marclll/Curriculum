@@ -2,7 +2,7 @@
   from {
     transform: rotate(0deg); }
   to {
-    transform: rotate(60deg); } }
+    transform: rotate(120deg); } }
 html, body {
   width: 100%;
   height: 100%;
@@ -36,10 +36,9 @@ nav {
     background-color: black;
     color: white; }
     nav button i {
-      animation-name: rotate;
-      animation-duration: 1s;
-      animation-play-state: paused;
-      animation-direction: normal; }
+      animation: rotate 0.5s infinite;
+      animation-timing-function: linear;
+      animation-play-state: paused; }
 
 #links_fondo {
   display: none;

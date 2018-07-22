@@ -6,7 +6,8 @@
   float: right; }
 
 video {
-  float: right; }
+  float: right;
+  margin-right: 10px; }
 
 table {
   margin-left: 70px;

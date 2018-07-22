@@ -2,7 +2,7 @@ $maincolor: #9da5b2;
 
 @keyframes rotate{
 	from{transform:rotate(0deg)}
-	to{transform:rotate(60deg)}
+	to{transform:rotate(120deg)}
 }
 
 html,body{
@@ -42,10 +42,9 @@ nav{
 		background-color: black;
 		color:white;
 		i{
-			animation-name:rotate;
-			animation-duration:1s;
+			animation: rotate 0.5s infinite;
+			animation-timing-function: linear;
 			animation-play-state: paused;
-			animation-direction:normal;
 		}
 	}
 }
