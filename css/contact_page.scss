@@ -1,0 +1,40 @@
+@keyframes rotate2{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}
+
+main{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin:0;
+}
+
+#loading{
+	display:none;
+	color:grey;
+	animation-name:rotate2;
+	animation-duration:2s;
+	animation-iteration-count:5;
+	animation-direction:normal;
+}
+
+#finalmessage{
+	display:none;
+}
+
+#redmessage{
+	display:none;
+	color:red;
+	font-size:13px;
+}
+
+form{
+	width:730px;
+	margin: 20px 0;
+}
+
+#submitdiv{
+	position:absolute;
+	align-self:flex-end;
+}

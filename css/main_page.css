@@ -1,0 +1,22 @@
+#profile_photo {
+  border: 1px black solid;
+  height: 200px;
+  width: 180px;
+  margin: 20px;
+  float: right; }
+
+video {
+  float: right; }
+
+table {
+  margin-left: 70px;
+  margin-bottom: 100px; }
+
+table, tr, td, th {
+  border: 1px solid black;
+  border-collapse: collapse; }
+
+th, td {
+  padding: 4px;
+  width: 20%;
+  text-align: center; }
